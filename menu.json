@@ -1,0 +1,36 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "nombre": "Inicio",
+      "enlace": "index.html"
+    },
+    {
+      "id": 2,
+      "nombre": "Modelos",
+      "enlace": "#",
+      "submenu": [
+        { "nombre": "Ferrari LaFerrari", "enlace": "Laferrari.html" },
+        { "nombre": "Lamborghini Aventador", "enlace": "Lamborghini.html" },
+        { "nombre": "Porsche 911 Turbo", "enlace": "Porsche911.html" },
+        { "nombre": "Bugatti Chiron", "enlace": "BugattiChiron.html" }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Historia",
+      "enlace": "historia.html"
+    },
+    {
+      "id": 4,
+      "nombre": "Tienda",
+      "enlace": "tienda.html"
+    },
+    {
+      "id": 5,
+      "nombre": "Contacto",
+      "enlace": "contacto.html"
+    }
+  ]
+}
+
