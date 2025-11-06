@@ -1,36 +1,48 @@
 {
   "menu": [
     {
-      "id": 1,
       "nombre": "Inicio",
-      "enlace": "index.html"
+      "enlace": "index.html",
+      "submenu": [
+        { "nombre": "Quiénes Somos", "enlace": "#" },
+        { "nombre": "Misión y Visión", "enlace": "#" },
+        { "nombre": "Noticias Recientes", "enlace": "#" },
+        { "nombre": "Galería de Autos", "enlace": "#" }
+      ]
     },
     {
-      "id": 2,
       "nombre": "Modelos",
       "enlace": "#",
       "submenu": [
         { "nombre": "Ferrari LaFerrari", "enlace": "Laferrari.html" },
         { "nombre": "Lamborghini Aventador", "enlace": "Lamborghini.html" },
-        { "nombre": "Porsche 911 Turbo", "enlace": "Porsche911.html" },
-        { "nombre": "Bugatti Chiron", "enlace": "BugattiChiron.html" }
+        { "nombre": "Porsche 911 Turbo", "enlace": "Porsche.html" },
+        { "nombre": "Bugatti Chiron", "enlace": "Bugatti.html" }
       ]
     },
     {
-      "id": 3,
       "nombre": "Historia",
-      "enlace": "historia.html"
+      "enlace": "Historia.html",
+      "submenu": [
+        { "nombre": "Orígenes del Automovilismo", "enlace": "#" },
+        { "nombre": "Evolución de los Autos Deportivos", "enlace": "#" },
+        { "nombre": "Marcas Legendarias", "enlace": "#" },
+        { "nombre": "Nuestro Legado", "enlace": "#" }
+      ]
     },
     {
-      "id": 4,
       "nombre": "Tienda",
       "enlace": "tienda.html"
     },
     {
-      "id": 5,
       "nombre": "Contacto",
-      "enlace": "contacto.html"
+      "enlace": "contacto.html",
+      "submenu": [
+        { "nombre": "Atención al Cliente", "enlace": "#" },
+        { "nombre": "Soporte Técnico", "enlace": "#" },
+        { "nombre": "Ubicación y Horarios", "enlace": "#" },
+        { "nombre": "Preguntas Frecuentes", "enlace": "#" }
+      ]
     }
   ]
 }
-
